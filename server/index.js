@@ -9,7 +9,8 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://chitchat-es0h.onrender.com",
+    method:["POST","GET"],
     credentials  : true
   })
 );
